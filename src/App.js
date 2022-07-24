@@ -1,12 +1,11 @@
 import "./App.css";
-import DataFetchingOne from "./components/DataFetching/DataFetchingOne";
-import DataFetchingTwo from "./components/DataFetching/DataFetchingTwo";
+
+import ParentComponent from "./components/useCallback/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <DataFetchingOne />
-      <DataFetchingTwo />
+      <ParentComponent />
     </div>
   );
 }
