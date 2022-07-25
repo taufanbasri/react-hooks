@@ -1,11 +1,15 @@
 import "./App.css";
+import ClassTimer from "./components/useRef/ClassTimer";
 
-import Counter from "./components/useMemo/Counter";
+import FocusInput from "./components/useRef/FocusInput";
+import HookTimer from "./components/useRef/HookTimer";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <FocusInput /> */}
+      <ClassTimer />
+      <HookTimer />
     </div>
   );
 }
